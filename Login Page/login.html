@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/login.css">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normali.css">
+    <!-- All min -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="login">
+    <!-- Image -->
+    <img src="images/Avatar.png" alt="">
+    <!-- Title -->
+    <h1>Login Page</h1>
+    <form action="/BankElhazz/Bank.html"  target="_blank" >
+        <!-- Username -->
+        <label class="login-data">Username</label>
+        <i class="fa-solid fa-user"></i>
+        <input type="text" placeholder="Enter Your Username" required autofocus minlength="8" maxlength="24">
+        <!-- Password -->
+        <label class="login-data">Password</label>
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" placeholder="Enter Your Password" required minlength="8" maxlength="24">
+        <!-- Remember-Forget -->
+        <div class="remember-forget">
+        <label><input type="checkbox">Remember Me</label>
+        <a href="#">Forget Password?</a>
+        </div>
+        <!-- Login Button -->
+        <button type="submit" >Login</button>
+        <!-- If you want to register -->
+        <p>Dont have any account?</p>
+        <a href="#" class="register">Register Now</a>
+    </form>
+    
+    </div>
+</body>
+</html>
